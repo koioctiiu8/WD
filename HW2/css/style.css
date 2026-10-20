@@ -44,6 +44,20 @@ div {
     text-align: center;
 }
 
+@media (max-width: 771px) {
+    div {
+        width: 100% !important;
+        margin: 5px 0 !important;
+        display: block;
+    }
+
+    div img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+}
+
 
 @media (min-width: 772px) {
     div {
